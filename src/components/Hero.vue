@@ -1,5 +1,5 @@
 <template>
-  <section class="hero-section flex flex-col-reverse md:flex-row items-center justify-between py-6 gap-8 md:gap-0 px-2 md:py-[70px] md:px-[40px] max-w-[1216px] mx-auto md:h-[629px]">
+  <section class="hero-section section-padding flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-0 px-2 md:px-[40px] max-w-[1216px] mx-auto md:h-[629px]">
     <!-- Left: Text Content -->
     <div class="flex-1 text-center md:text-left mt-6 md:mt-0">
       <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 leading-tight">
