@@ -13,11 +13,13 @@
       </p>
     </div>
   </AboutMenuSection>
+  <AboutMeCardsGrid v-if="route.path === '/'" class="mt-8 mb-8" />
 </template>
 
 <script setup lang="ts">
 import Header from './components/Header.vue';
 import AboutMenuSection from './components/AboutMenuSection.vue';
+import AboutMeCardsGrid from './components/AboutMeCardsGrid.vue';
 import { useRoute } from 'vue-router';
 const route = useRoute();
 </script>
