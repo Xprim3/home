@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center px-4 py-5 sticky top-0 z-50">
+  <nav class="flex items-center px-4 py-4 md:px-[40px] md:py-[30px] sticky top-0 z-50">
     <div class="mr-6 select-none flex items-center w-[87px] h-[25px] md:w-[140px] md:h-[40px] max-w-[140px] max-h-[40px]">
       <svg
         viewBox="0 0 228.02 64.92"
