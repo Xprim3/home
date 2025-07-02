@@ -40,4 +40,8 @@
 
 <script setup lang="ts">
 // Grid of 8 responsive cards with title, bullet list, and video.
-</script> 
+</script>
+
+<style scoped>
+/* Add section-specific styles here if needed */
+</style> 

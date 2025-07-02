@@ -6,4 +6,8 @@
 
 <script setup lang="ts">
 // This is a flexible section for about menu or similar content.
-</script> 
+</script>
+
+<style scoped>
+/* Add section-specific styles here if needed */
+</style> 

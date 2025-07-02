@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-2xl p-4 md:py-[70px] md:px-[40px] flex flex-col gap-8 md:gap-12" style="box-shadow: #00000040 0 0 4px; height: auto; min-height: 0;" :class="'md:h-[619px]'">
+  <div class="benefit-card bg-white rounded-2xl p-4 md:py-[70px] md:px-[40px] flex flex-col gap-8 md:gap-12 md:h-[619px]">
     <!-- Title: Centered above both columns -->
     <h2 class="text-center text-[32px] md:text-[40px] font-bold mb-0">{{ title }}</h2>
     <div class="flex flex-col md:flex-row items-center md:items-stretch gap-8 md:gap-12">
@@ -32,4 +32,12 @@ defineProps<{
   imageSrc: string,
   benefits: string[],
 }>();
-</script> 
+</script>
+
+<style scoped>
+.benefit-card {
+  box-shadow: 0 8px 32px rgba(60,60,60,0.12);
+  height: auto;
+  min-height: 0;
+}
+</style> 

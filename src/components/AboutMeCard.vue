@@ -6,4 +6,8 @@
 
 <script setup lang="ts">
 // Flexible card for about me or similar content.
-</script> 
+</script>
+
+<style scoped>
+/* Add section-specific styles here if needed */
+</style> 
