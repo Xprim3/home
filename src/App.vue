@@ -1,6 +1,6 @@
 <template>
+  <Header />
   <div class="main-container mx-auto px-4">
-    <Header />
     <main>
       <router-view />
     </main>
