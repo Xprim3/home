@@ -3,16 +3,20 @@
     <div class="max-w-[1216px] mx-auto px-4 md:px-[40px] relative">
       <h2 class="font-bold mb-8 text-center md:text-left text-[28px] md:text-[36px] lg:text-[40px]">Examples Section</h2>
       <div class="relative">
+        <!-- Mobile: flex/scroll, Desktop: responsive grid -->
         <div
-          class="flex gap-6 overflow-x-auto pb-2 -mx-4 px-4 hide-scrollbar"
+          class="flex gap-6 overflow-x-auto pb-2 -mx-4 px-4 hide-scrollbar
+                 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5
+                 sm:gap-6 sm:overflow-visible sm:mx-0 sm:px-0"
           style="scroll-padding-right: 60px;"
         >
           <div
             v-for="(card, i) in cards"
             :key="i"
-            class="w-[201px] min-w-[201px] max-w-[201px] h-[205px] md:w-[261px] md:min-w-[261px] md:max-w-[261px] md:h-[320px] bg-white rounded-2xl shadow p-4 flex flex-col items-center hover:shadow-lg transition-shadow duration-200 flex-shrink-0"
+            class="w-[201px] min-w-[201px] max-w-[201px] h-[205px] flex-shrink-0
+                   sm:w-auto sm:min-w-0 sm:max-w-none sm:h-[260px] md:h-[320px] bg-white rounded-2xl shadow p-4 flex flex-col items-center hover:shadow-lg transition-shadow duration-200"
           >
-            <img :src="card.img" alt="Example image" class="w-full h-[110px] md:h-[180px] object-cover rounded-xl mb-4" />
+            <img :src="card.img" alt="Example image" class="w-full h-[110px] sm:h-[140px] md:h-[180px] object-cover rounded-xl mb-4" />
             <div class="font-semibold text-center text-base md:text-xl">{{ card.title }}</div>
           </div>
         </div>
